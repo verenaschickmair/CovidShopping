@@ -1,0 +1,111 @@
+{
+  "users" : [
+    {
+      "userId": 1,
+      "firstName" : "Susi",
+      "lastName" : "Musterfrau",
+      "birthday"  : "01.01.1999",
+      "address" : "Musterstrasse 1"
+    }
+  ],
+  "lists" : [
+    {
+      "listId": "list1",
+      "title": "Einkaufen bei Spar",
+      "creator": "Lisa Baumann",
+      "description": "Dringend",
+      "creationDate": "01.01.2021",
+      "fulfillmentDate": "08.01.2021",
+      "articles": [
+        {
+          "title": "Apfel",
+          "maxPrice": 3,
+          "quantity": "5 Stk",
+          "picture": "img/apfel.jpg"
+        },
+        {
+          "title": "Mais",
+          "maxPrice": 2,
+          "quantity": "1 Dose",
+          "picture": ""
+        },
+        {
+          "title": "Mehl",
+          "maxPrice": 2,
+          "quantity": "1 kg",
+          "picture": "img/mehl.jpg"
+        },
+        {
+          "title": "Banane",
+          "maxPrice": 4,
+          "quantity": "5 Stk",
+          "picture": "img/banane.jpg"
+        },
+        {
+          "title": "Milch",
+          "maxPrice": 3,
+          "quantity": "1 Liter",
+          "picture": ""
+        }
+      ]
+    },
+
+    {
+      "listId": "list2",
+      "title": "Baumarkteinkauf",
+      "creator": "Alex Hödl",
+      "description": "für Omi",
+      "creationDate": "01.12.2021",
+      "fulfillmentDate": "04.01.2021",
+      "articles": [
+        {
+          "title": "Apfel",
+          "maxPrice": 3,
+          "quantity": "5 Stk",
+          "picture": "img/apfel.jpg"
+        },
+        {
+          "title": "Mais",
+          "maxPrice": 2,
+          "quantity": "1 Dose",
+          "picture": ""
+        }
+      ]
+    },
+
+    {
+      "listId": "list3",
+      "title": "Hofer Einkauf",
+      "creator": "Markus Lieblich",
+      "description": "Brauche Hilfe",
+      "creationDate": "10.01.2021",
+      "fulfillmentDate": "22.01.2021",
+      "articles": [
+        {
+          "title": "Apfel",
+          "maxPrice": 3,
+          "quantity": "5 Stk",
+          "picture": "img/apfel.jpg"
+        },
+        {
+          "title": "Mais",
+          "maxPrice": 2,
+          "quantity": "1 Dose",
+          "picture": ""
+        },
+        {
+          "title": "Mehl",
+          "maxPrice": 2,
+          "quantity": "1 kg",
+          "picture": "img/mehl.jpg"
+        },
+        {
+          "title": "Banane",
+          "maxPrice": 4,
+          "quantity": "5 Stk",
+          "picture": "img/banane.jpg"
+        }
+      ]
+    }
+  ]
+}
